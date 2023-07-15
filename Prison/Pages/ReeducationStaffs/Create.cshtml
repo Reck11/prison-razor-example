@@ -1,0 +1,83 @@
+﻿@page
+@using Prison.Models
+@model Prison.Pages.ReeducationStaffs.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>ReeducationStaff</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ReeducationStaff.QualificationsType" class="control-label"></label>
+                <select asp-for="ReeducationStaff.QualificationsType" asp-items="Html.GetEnumSelectList<QualificationsType>()" class="form-control">
+                    <option value="">Rodzaj kwalifikacji</option>
+                </select>
+                <span asp-validation-for="ReeducationStaff.QualificationsType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReeducationStaff.Salary" class="control-label"></label>
+                <input asp-for="ReeducationStaff.Salary" class="form-control" />
+                <span asp-validation-for="ReeducationStaff.Salary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReeducationStaff.FirstName" class="control-label"></label>
+                <input asp-for="ReeducationStaff.FirstName" class="form-control" />
+                <span asp-validation-for="ReeducationStaff.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReeducationStaff.LastName" class="control-label"></label>
+                <input asp-for="ReeducationStaff.LastName" class="form-control" />
+                <span asp-validation-for="ReeducationStaff.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReeducationStaff.Age" class="control-label"></label>
+                <input asp-for="ReeducationStaff.Age" class="form-control" />
+                <span asp-validation-for="ReeducationStaff.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="table">
+                    <table>
+                        <tr>
+                            @{
+                                int cnt = 0;
+
+                                foreach (var program in Model.StaffAssignedPrograms)
+                                {
+                                    if (cnt++ % 3 == 0)
+                                    {
+                                        @:</tr><tr>
+                                    }
+                                    @:<td>
+                                        <input type="checkbox"
+                                               name="selectedPrograms"
+                                               value="@program.ProgramId"
+                                               @(Html.Raw(program.Assigned ? "checked=\"checked\"" : "")) />
+                                               @program.Name
+                                    @:</td>
+                                }
+                                @:</tr>
+                            }
+                    </table>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

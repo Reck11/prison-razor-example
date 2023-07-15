@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prison", "Prison\Prison.csproj", "{5928CF7E-DC17-4CAA-8E84-0C3D7B08F5A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5928CF7E-DC17-4CAA-8E84-0C3D7B08F5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5928CF7E-DC17-4CAA-8E84-0C3D7B08F5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5928CF7E-DC17-4CAA-8E84-0C3D7B08F5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5928CF7E-DC17-4CAA-8E84-0C3D7B08F5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CD00A4C-A7C0-40B7-89D5-C306DC4FF256}
+	EndGlobalSection
+EndGlobal

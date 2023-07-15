@@ -1,0 +1,65 @@
+﻿@page
+@model Prison.Pages.ReeducationPrograms.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>ReeducationProgram</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ReeducationProgram.Name" class="control-label"></label>
+                <input asp-for="ReeducationProgram.Name" class="form-control" />
+                <span asp-validation-for="ReeducationProgram.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReeducationProgram.Description" class="control-label"></label>
+                <input asp-for="ReeducationProgram.Description" class="form-control" />
+                <span asp-validation-for="ReeducationProgram.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+            <div class="form-group">
+                <div class="table">
+                    <table>
+                        <tr>
+                            @{
+                                int cnt = 0;
+
+                                foreach (var staff in Model.ProgramAssignedStaff)
+                                {
+                                    if (cnt++ % 3 == 0)
+                                    {
+                                        @:</tr><tr>
+                                    }
+                                    @:<td>
+                                        <input type="checkbox"
+                                               name="selectedStaff"
+                                               value="@staff.StaffId"
+                                               @(Html.Raw(staff.Assigned ? "checked=\"checked\"" : "")) />
+                                               @staff.FirstName @:  @staff.LastName
+                                    @:</td>
+                                }
+                                @:</tr>
+                            }
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

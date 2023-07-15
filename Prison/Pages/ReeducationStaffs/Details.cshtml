@@ -1,0 +1,71 @@
+﻿@page
+@model Prison.Pages.ReeducationStaffs.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ReeducationStaff</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.QualificationsType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.QualificationsType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.Salary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.Salary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.Age)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.Age)
+        </dd>
+    </dl>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ReeducationPrograms[0].Name)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ReeducationPrograms) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a asp-page="/ReeducationPrograms/Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-page="/ReeducationPrograms/Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="/ReeducationPrograms/Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ReeducationStaff?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

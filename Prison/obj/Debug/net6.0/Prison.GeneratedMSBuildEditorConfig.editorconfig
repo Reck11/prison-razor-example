@@ -1,0 +1,244 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Prison
+build_property.RootNamespace = Prison
+build_property.ProjectDir = C:\Users\stefa\Documents\pjatk\MAS\Implementacja\Prison\Prison\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\stefa\Documents\pjatk\MAS\Implementacja\Prison\Prison
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/CellBlocks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbEJsb2Nrc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/CellBlocks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbEJsb2Nrc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/CellBlocks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbEJsb2Nrc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/CellBlocks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbEJsb2Nrc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/CellBlocks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbEJsb2Nrc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Cells/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Cells/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Cells/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Cells/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Cells/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VsbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Crimes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JpbWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Crimes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JpbWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Crimes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JpbWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Crimes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JpbWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Crimes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JpbWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Jobs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9ic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Jobs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9ic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Jobs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9ic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Jobs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9ic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Jobs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9ic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Prisoners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpc29uZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Prisoners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpc29uZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Prisoners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpc29uZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Prisoners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpc29uZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Prisoners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpc29uZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationMeetings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25NZWV0aW5nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationMeetings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25NZWV0aW5nc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationMeetings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25NZWV0aW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationMeetings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25NZWV0aW5nc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationMeetings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25NZWV0aW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationPrograms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25Qcm9ncmFtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationPrograms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25Qcm9ncmFtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationPrograms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25Qcm9ncmFtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationPrograms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25Qcm9ncmFtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationPrograms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25Qcm9ncmFtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationStaffs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25TdGFmZnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationStaffs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25TdGFmZnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationStaffs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25TdGFmZnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationStaffs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25TdGFmZnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/ReeducationStaffs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVlZHVjYXRpb25TdGFmZnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Visitors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXRvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Visitors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXRvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Visitors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXRvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Visitors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXRvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Visitors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXRvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Wardens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2FyZGVuc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Wardens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2FyZGVuc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Wardens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2FyZGVuc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Wardens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2FyZGVuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Wardens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2FyZGVuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stefa/Documents/pjatk/MAS/Implementacja/Prison/Prison/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mxficcq1qa

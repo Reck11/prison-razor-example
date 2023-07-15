@@ -1,0 +1,63 @@
+﻿@page
+@model Prison.Pages.ReeducationMeetings.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ReeducationMeeting</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationMeeting.Time)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationMeeting.Time)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationMeeting.MaximumNumberOfPrisoners)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationMeeting.MaximumNumberOfPrisoners)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationMeeting.Program)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationMeeting.Program.Name)
+        </dd>
+    </dl>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Prisoners[0].FirstName)</th>
+            <th>@Html.DisplayNameFor(model => model.Prisoners[0].LastName)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Prisoners) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    <a asp-page="/Prisoners/Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-page="/Prisoners/Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="/Prisoners/Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ReeducationMeeting?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

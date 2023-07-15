@@ -1,0 +1,52 @@
+﻿@page
+@model Prison.Pages.ReeducationStaffs.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ReeducationStaff</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.QualificationsType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.QualificationsType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.Salary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.Salary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReeducationStaff.Age)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReeducationStaff.Age)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="ReeducationStaff.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

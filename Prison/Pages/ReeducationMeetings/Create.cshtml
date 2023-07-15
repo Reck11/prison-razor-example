@@ -1,0 +1,74 @@
+﻿@page
+@model Prison.Pages.ReeducationMeetings.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>ReeducationMeeting</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ReeducationMeeting.Program" class="control-label"></label>
+                <select asp-for="ReeducationMeeting.ProgramId" class="form-control"
+                        asp-items="@Model.ProgramNameSL">
+                        <option value ="">Select Program</option>
+                    </select>
+                <span asp-validation-for="ReeducationMeeting.ProgramId" class="text-danger"></span>
+                <a href="/reeducationPrograms/create" class="btn btn-primary">Create Reeducation Program</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReeducationMeeting.Time" class="control-label"></label>
+                <input asp-for="ReeducationMeeting.Time" class="form-control" />
+                <span asp-validation-for="ReeducationMeeting.Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReeducationMeeting.MaximumNumberOfPrisoners" class="control-label"></label>
+                <input asp-for="ReeducationMeeting.MaximumNumberOfPrisoners" class="form-control" />
+                <span asp-validation-for="ReeducationMeeting.MaximumNumberOfPrisoners" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+            <div class="form-group">
+                <div class="table">
+                    <table>
+                        <tr>
+                            @{
+                                int cnt = 0;
+
+                                foreach (var prisoner in Model.MeetingAssignedPrisoners)
+                                {
+                                    if (cnt++ % 3 == 0)
+                                    {
+                                        @:</tr><tr>
+                                    }
+                                    @:<td>
+                                        <input type="checkbox"
+                                               name="selectedPrisoners"
+                                               value="@prisoner.PrisonerId"
+                                               @(Html.Raw(prisoner.Assigned ? "checked=\"checked\"" : "")) />
+                                               @prisoner.FirstName @:  @prisoner.LastName
+                                    @:</td>
+                                }
+                                @:</tr>
+                            }
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
